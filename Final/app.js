@@ -1,10 +1,9 @@
-var audio; 
+var audio 
 
 function controlMusic(clip){
-   // audio.pause()
+   audio.pause()
    audio = new Audio(clip)
    audio.play()
-   
 };
 
 $("#heat").click(function(){
@@ -26,4 +25,3 @@ $("#scent").click(function(){
     $(".quote").html('I&#8217m just getting warmed up!');
   	controlMusic("sounds/Scent3.mp3");
 });
-    
