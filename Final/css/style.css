@@ -1,6 +1,7 @@
 body{
 	background-color: black;
 	color: white;
+	font: Open Sans;
 }
 
 #intro{
@@ -33,12 +34,20 @@ h1{
 	text-align: center;
 }
 
-.hidden{
+.hidden {
 	visibility: hidden;
 }
 
 .poster{
 
 }
-/*
-transform: translate (-200px, 0px)*/
+.clicked {	
+	transition:  (-800px, 0px);
+	transition-duration: (400ms);
+}
+
+@media screen (min-width: 1024px){
+	.thumb{
+		clear: both;
+	}
+}
